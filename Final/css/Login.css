@@ -1,0 +1,93 @@
+body {
+  background-color: #28aee4;
+  font-family: Noto-sans, sans-serif;
+  margin:0;
+}
+body>header>h1 {
+  font-size: 400%;
+  position:static;
+  width:100%;
+  margin:0px;
+  padding-top: 0;
+  height: 50px;
+  text-align:center;
+  color: white
+
+
+
+}
+header {
+  padding:0.5%;
+  background-color: #28aee4;
+}
+#banner {
+  display: flex;
+  flex-direction: row-reverse;
+  padding-bottom: 1em;
+  height: 50%;
+}
+header img {
+  height:100%;
+  width:100%;
+  margin-left:1em
+
+
+
+}
+section {
+  padding-top:3em;
+  background-color: white;
+  padding-bottom:3em;
+  display: flex;
+  justify-content: space-evenly;
+}
+section img {
+  margin-top: 2%;
+  border-radius:20%;
+  height: 100%;
+}
+form {
+  display: flex;
+  padding: 4%;
+  flex-direction: column;
+  background-color: black;
+  height:100%;
+  margin-left: 20%;
+  color:white;
+  border-radius: 20%;
+}
+form legend {
+  font-size: 200%;
+  width: 100%;
+  text-align: center;
+}
+input {
+  color: black;
+  margin:3%;
+  border-color: white;
+  padding: 2%;
+}
+a:hover {
+  font-weight: bold;
+}
+footer {
+  font-size:150%;
+  padding-top:1em;
+  background-color: #28aee4;
+  display:flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color:white;
+  text-align: center;
+  flex-direction: row;
+  padding-bottom:2%;
+}
+footer>a {
+  font-weight:bold;
+  color:white;
+  font-size:150%;
+  text-decoration: none;
+}
+footer img {
+  height:50%;
+}

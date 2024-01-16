@@ -1,0 +1,245 @@
+body{
+    background-color: whitesmoke;
+    margin:0;
+    font-family: Noto-sans, sans-serif;
+    color:white;
+}
+
+
+
+p{
+    margin: 5%;
+    font-size: xx-large
+}
+
+a:hover{
+    font-weight: bold;
+}
+
+
+#Covoiturage p {
+    color: white;
+    background-color: black;
+    padding:0.5em;
+    border-radius: 32px 64px ;
+}
+
+#Velo p{
+    color: white;
+    background-color: black;
+    padding:0.5em;
+    border-radius: 64px 32px ;
+}
+
+
+/*banner*/
+
+body>header>h1{
+    font-size: 400%;
+	position:static;
+	width:100%;
+	margin:0px;
+    padding-top: 0;
+    height: 50px;
+	text-align:center;
+}
+
+header{
+    padding-top: 2%;
+    display:flex;
+    padding-bottom:2%;
+    background-color: #28aee4;
+}
+
+header img{
+    height:100%;
+    width:100%;
+    margin-left:1em
+}
+
+h2{
+    text-align: center;
+    font-size:300%;
+    background-color: #28aee4;
+    padding:2%;
+    margin-top:0;
+    margin-bottom:0;
+}
+
+/*Main*/ 
+
+#Main{
+    display: flex;
+
+}
+
+#Main #Main2{
+    display:flex;
+    
+}
+
+#barre1{
+   height:5px;
+   width:50%;
+   align-self: center;
+   background-color:black;
+}
+
+#barre2{
+   height:5px;
+   width:75%;
+   align-self: center;
+   background-color:black;
+}
+
+#Main1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+    border:solid;
+    border-top-style:none;
+    border-left-style:none;
+    border-bottom-style:none;
+    border-right-width: 1em;
+    border-right-color:#28aee4;
+}
+
+#Main1 ul{
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   position: static;
+   background-color: white;
+   color: black;
+   padding-top: 25px;
+   padding-bottom: 35px;
+   margin-bottom: 0px;
+}
+
+#Main1 ul>li{
+    width:100%; 
+    padding: 10px;
+    list-style-type: none;
+    text-align: center;
+}
+
+#Main1 ul>li>a{
+    text-decoration: none;
+    color: black;
+    font-size: 500%;
+    font-style: unset
+}
+
+#Main2 ul{
+    
+    padding-left: 10%;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly; 
+    align-items: center; 
+    flex-direction: column;
+}
+
+#Main2 ul a{
+    text-decoration: none;
+    color:black;
+    font-family: inherit revert ;
+    font-size: 500%;
+    font-style: unset;
+    font-family: Noto-sans, sans-serif;
+}
+
+
+/*Covoiturage*/ 
+
+
+#Covoiturage{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#Covoiturage p{
+    text-align:right;
+    border:solid;
+    padding-right:2%;
+    border-top-style:none;
+    border-left-style:none;
+    border-bottom-style:none;
+    border-right-color:black;
+}
+
+#Covoiturage p a{
+    font-size: 25px;
+}
+
+#Covoiturage img{
+    margin-top: 2%;
+    margin-bottom:3%;
+    margin-right: 0%;
+    margin-left: 0%;
+    height: 75%;
+}
+
+/*Velo*/ 
+
+
+#Velo{
+    height: 30%;
+    margin: 0.5em;
+    background-color: white;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    align-items: center
+}
+
+#Velo p {
+    font-size: 250%;
+    padding-left:2%;
+    border:solid;
+    border-top-style:none;
+    border-right-style:none;
+    border-bottom-style:none;
+    border-left-color:black;
+}
+
+#Velo p a{
+    font-size: 25px;
+}
+
+#Velo img{
+
+    height: 75%;
+}
+
+/*FOOTER*/
+
+footer{
+    font-size:150%;
+   padding-top:1em;
+    background-color: #28aee4;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color:white;
+    text-align: center;
+    flex-direction: row;
+    padding-bottom:2%;
+}
+
+footer>a{
+    font-weight:bold;
+    color:white;
+    font-size:150%;
+    text-decoration: none;
+}
+
+footer img{
+    height:50%;
+}
+
+
